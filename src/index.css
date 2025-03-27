@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.dark .today_deals_container {
+  background-color: #1e1e1e;
+  box-shadow: -2px -2px 5px rgba(255, 255, 255, 0.1),
+              2px 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+.dark .today_deals_heading {
+  color: #e0e0e0;
+}
+
+.dark .today_deals_product_item {
+  background-color: #2c2c2c;
+}
+
+.dark .today_deals_product_item p {
+  color: #e0e0e0;
+}
+
+.dark .todayDeals_product_image {
+  background-color: transparent;
+}
+
+.dark .discount_Contaienr a {
+  color: #ff69b4;
+}
+
+.dark .discount_Contaienr a:first-child {
+  background-color: #ff69b4;
+  color: black;
+}
+
+.dark .today_deal_btn {
+  background-color: rgba(50, 50, 50, 0.6);
+  color: white;
+}
+
+.dark .today_deal_btn:hover {
+  background-color: rgba(80, 80, 80, 0.8);
+}
