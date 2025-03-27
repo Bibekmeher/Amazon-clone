@@ -4,7 +4,7 @@
     --white-color: #fff;
     --border-color: #BBBFBF;
   
-    /* Dark Theme Colors */
+    
     --dark-bg-color: #0f1419;
     --dark-text-color: #e3e6e6;
     --dark-border-color: #3a3f47;
@@ -12,8 +12,7 @@
     --dark-link-color: #58a6ff;
     --dark-stock-color: #26a541;
   }
-  
-  /* Utility */
+
   a {
     text-decoration: none;
     color: inherit;
@@ -47,7 +46,7 @@
     padding: 3px;
   }
   
-  /* Product Page */
+
   .ProductPaga-container {
     display: flex;
     justify-content: space-between;
@@ -257,8 +256,7 @@
   .toggle-dark-mode:hover {
     background: #e09135;
   }
-  
-  /* Responsive Design */
+ 
   @media (max-width: 1024px) {
     .ProductPaga-container {
       flex-direction: column;

@@ -12,7 +12,6 @@ const LeftBar = () => {
     <>
       <div className={`leftBar-section ${open ? "active" : ""}`}>
         <div className={`leftBar-container ${open ? "leftBar-active" : ""}`}>
-          {/* Sidebar Header */}
           <div className="leftBar-header top-bottom-padding flexBox">
             <div className="avtar-section">
               <AccountCircleIcon />
@@ -22,7 +21,6 @@ const LeftBar = () => {
             </div>
           </div>
 
-          {/* Sidebar Content with Scroll */}
           <div className="leftBar-information">
             <LeftMenuBox2 title="Trending" listDetail={Trending} />
             <LeftMenuBox title="Digital Content And Devices" listDetail={LeftBarItem} />

@@ -24,16 +24,7 @@ const NavBar = () => {
                 }
             </ul>
         </div>
-        {/* <div className="offer-section flexBox"> */}
-            {/* <div>
-                <p>CITADEL</p>
-            </div>
-            <div className="between-Border"></div> */}
-            {/* <div class="nav-right-image-amazon-prime">
-                <img
-                    src="https://m.media-amazon.com/images/G/31/img17/Home/AmazonTV/Ravina/Desktop/Watch-Entertainment-for-FREE_400-x39._CB605460886_.jpg" />
-            </div>
-        </div> */}
+       
       </div>
     </>
   )

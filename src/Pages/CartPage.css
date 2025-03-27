@@ -1,18 +1,16 @@
 #container {
     max-width: 1500px;
     margin: 0 auto;
-     /* Add padding for smaller screens */
+    
 }
 
-/* Product Cart Section */
 .product-cart-section {
     margin: 3rem 0;
     display: flex;
-    flex-wrap: wrap; /* Ensures responsiveness */
+    flex-wrap: wrap; 
     gap: 1rem;
 }
 
-/* Product List */
 .product-list {
     color: #0F1111;
     padding: 1rem;
@@ -27,17 +25,17 @@
     margin-bottom: .8rem;
 }
 
-/* Divider */
+
 .divider {
     width: 100%;
     height: 1px;
     background-color: #DDD;
 }
 
-/* Cart Section */
+
 .cart {
     display: flex;
-    flex-wrap: wrap; /* Allows wrapping on small screens */
+    flex-wrap: wrap; 
     justify-content: start;
     align-items: center;
     gap: 1rem;
@@ -50,7 +48,7 @@
     object-fit: cover;
 }
 
-/* Cart Details */
+
 .cart-detail {
     display: flex;
     gap: .4rem;
@@ -78,7 +76,6 @@ span {
     color: #0F1111;
 }
 
-/* Product Cart */
 .product-cart {
     background-color: #fff;
     color: #0F1111;
@@ -95,7 +92,7 @@ span {
 }
 
 
-/* Cart Price */
+
 .cart-price {
     width: max-content;
 }
@@ -105,7 +102,7 @@ span {
     font-weight: 700;
 }
 
-/* Quantity Selection */
+
 .cart-Qts {
     color: #007185;
     padding: 0 8px;
@@ -113,7 +110,7 @@ span {
     cursor: pointer;
 }
 
-/* Cart Total */
+
 .cart-total {
     padding: 1rem;
     font-size: 18px;
@@ -136,10 +133,10 @@ span {
     color: #067D62;
 }
 
-/* 🔥 RESPONSIVE DESIGN */
+
 @media (max-width: 1024px) {
     .product-cart-section {
-        flex-direction: column; /* Stack items vertically */
+        flex-direction: column; 
         align-items: center;
     }
 
@@ -148,7 +145,7 @@ span {
     }
 
     .product-cart {
-        width: 100%; /* Make it full width */
+        width: 100%; 
         text-align: center;
     }
 }
@@ -161,7 +158,7 @@ span {
     }
 
     .cart-img img {
-        max-width: 8rem; /* Reduce image size */
+        max-width: 8rem; 
     }
 
     .cart-title {

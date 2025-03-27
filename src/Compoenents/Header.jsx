@@ -96,8 +96,6 @@ const Header = () => {
                 </div>
               </div>
             </Link>
-
-            {/* Dark Mode Toggle Button */}
             <div className="menu-items toggle-theme" onClick={toggleTheme}>
               {theme === "dark" ? <LightModeIcon /> : <DarkModeIcon />}
             </div>

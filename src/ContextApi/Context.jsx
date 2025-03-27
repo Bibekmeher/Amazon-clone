@@ -7,13 +7,12 @@ const Context = (props) => {
   const openButton = () => setOpen(true);
   const closeButton = () => setOpen(false);
 
-  // Load cart data from LocalStorage when the app starts
+
   const [productList, setProductList] = useState(() => {
     const savedCart = localStorage.getItem("cartItems");
     return savedCart ? JSON.parse(savedCart) : [];
   });
 
-  // Save cart data to LocalStorage whenever productList changes
   useEffect(() => {
     localStorage.setItem("cartItems", JSON.stringify(productList));
   }, [productList]);

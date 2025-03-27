@@ -9,34 +9,7 @@ const MainSection = () => {
     <>
       <div id="container">
          <PrimeSlider/>
-        {/*<div className="product-gallery">
-        <ProductCard
-          title="Up to 70% off | Clearance store"
-          img="../image/Productimage/b1.jpg"
-          offer="Shop Now"
-        />
-        <ProductCard2 Detail={Upcominglaunches}  title="Latest and upcoming launches" />
-        <ProductCard
-          title="Amazon pay Book Travel Tickets"
-          img="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wearables/PC_CategoryCard_379X304_1._SY304_CB614835787_.jpg"
-          offer="Shop Now"
-        />
-        <ProductCard2 Detail={AmazonPay}  title="Amazon pay Book Travel Tickets" />
-        </div>
-        <div className="product-gallery">
-        <ProductCard
-          title="Bluetooth Calling Smartwatch starts at ₹1,999"
-          img="../image/Productimage/b2.jpg"
-          offer="Shop Now"
-        />
-        <ProductCard2 Detail={StylesForMen}  title="Up to 60% off | Styles for men" />
-        <ProductCard
-          title="Amazon pay Book Travel Tickets"
-          img="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wearables/PC_CategoryCard_379X304_1._SY304_CB614835787_.jpg"
-          offer="Shop Now"
-        />
-        <ProductCard2 Detail={AmazonPay}  title="Amazon pay Book Travel Tickets" />
-        </div> */}
+       
         <main class="main">
         <div class="card-product-container container">
             <div class="card-product">
@@ -252,71 +225,7 @@ const MainSection = () => {
         </div>
 
     
-    {/* <!--today's deals --> */}
-    {/* <section class="today_deals_container">
-        <div class="today_deals_heading">
-            <h1>Today's Deals</h1>
-            <p><a href="#">See all deals</a></p>
-        </div>
 
-        <div class="today_deals_product_container">
-            <div class="today_deals_btn_container">
-                <button  class="today_deal_btn" id="today_deal_btn_prev">
-                    <i class="fa-solid fa-angle-left"></i>
-                </button>
-                <button class="today_deal_btn" id="today_deal_btn_next">
-                    <i class="fa-solid fa-angle-right"></i>
-                </button>
-            </div>
-
-            <div class="today_deals_product_list">
-                <div class="today_deals_product_item">
-                    <img src="https://m.media-amazon.com/images/I/411mbYGYIdL._AC_SY200_.jpg"/>
-                    <div class="discount_Contaienr">
-                        <a href="#">Up to 52% off</a>
-                        <a href="#">Deal of the day</a>
-                    </div>
-                    <p>adidas and Campus Footwear</p>
-                </div>
-
-                <div class="today_deals_product_item">
-                    <img src="https://m.media-amazon.com/images/I/411mbYGYIdL._AC_SY200_.jpg"/>
-                    <div class="discount_Contaienr">
-                        <a href="#">Up to 52% off</a>
-                        <a href="#">Deal of the day</a>
-                    </div>
-                    <p>adidas and Campus Footwear</p>
-                </div>
-
-                <div class="today_deals_product_item">
-                    <img src="https://m.media-amazon.com/images/I/411mbYGYIdL._AC_SY200_.jpg"/>
-                    <div class="discount_Contaienr">
-                        <a href="#">Up to 52% off</a>
-                        <a href="#">Deal of the day</a>
-                    </div>
-                    <p>adidas and Campus Footwear</p>
-                </div>
-
-                <div class="today_deals_product_item">
-                    <img src="https://m.media-amazon.com/images/I/411mbYGYIdL._AC_SY200_.jpg"/>
-                    <div class="discount_Contaienr">
-                        <a href="#">Up to 52% off</a>
-                        <a href="#">Deal of the day</a>
-                    </div>
-                    <p>adidas and Campus Footwear</p>
-                </div>
-
-                <div class="today_deals_product_item">
-                    <img src="https://m.media-amazon.com/images/I/411mbYGYIdL._AC_SY200_.jpg"/>
-                    <div class="discount_Contaienr">
-                        <a href="#">Up to 52% off</a>
-                        <a href="#">Deal of the day</a>
-                    </div>
-                    <p>adidas and Campus Footwear</p>
-                </div>
-            </div>
-        </div>
-    </section> */}
 
     </main>
 

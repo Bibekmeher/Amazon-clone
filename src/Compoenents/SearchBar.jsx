@@ -7,14 +7,12 @@ const HeaderSearchBar = () => {
   const [selectedCategory, setSelectedCategory] = useState("all");
   const navigate = useNavigate(); // Hook for navigation
 
-  // Function to handle search
   const handleSearch = () => {
     if (searchQuery.trim() !== "") {
       navigate(`/search?query=${encodeURIComponent(searchQuery)}&category=${selectedCategory}`);
     }
   };
 
-  // Handle Enter key press
   const handleKeyPress = (e) => {
     if (e.key === "Enter") {
       handleSearch();

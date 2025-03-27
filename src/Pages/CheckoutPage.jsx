@@ -38,7 +38,7 @@ const CheckoutPage = ({ cart, setCart }) => {
     e.preventDefault();
     if (validateForm()) {
       setPaymentSuccess(true);
-      setCart([]); // Clear the cart after successful payment
+      setCart([]); 
     }
   };
 
