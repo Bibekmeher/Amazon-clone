@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import LanguageIcon from '@mui/icons-material/Language';
 import ArrowDropUpIcon from '@mui/icons-material/ArrowDropUp';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import React from "react";
 
 const Footer = () => {
   return (

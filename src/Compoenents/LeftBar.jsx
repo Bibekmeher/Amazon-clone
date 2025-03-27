@@ -4,7 +4,7 @@ import { LeftMenuBox, LeftMenuBox2 } from "./LeftMenuBox";
 import { useContext } from "react";
 import { LeftBarItem, shopByCategory, ProgramsFeatures, Trending } from "../Details/LeftBarItem";
 import CartContext from "../ContextApi/CartContext";
-
+import React from "react";
 const LeftBar = () => {
   const { open, closeButton } = useContext(CartContext);
 

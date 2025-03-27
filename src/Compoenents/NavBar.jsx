@@ -4,7 +4,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import LeftBar from "./LeftBar";
 import CartContext from "../ContextApi/CartContext";
-
+import React from "react";
 const NavBar = () => {
 
   const { openButton }  = useContext(CartContext);

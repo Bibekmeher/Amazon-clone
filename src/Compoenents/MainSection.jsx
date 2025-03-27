@@ -3,7 +3,7 @@ import { AmazonPay, Upcominglaunches, StylesForMen } from '../Details/OfferDetai
 import ProductSlider from "./ProductSlider";
 import { ProductDetail } from '../Details/ProductDetail'
 import PrimeSlider from "./PrimeSlider";
-
+import React from "react";
 const MainSection = () => {
   return (
     <>

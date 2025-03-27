@@ -8,7 +8,7 @@ import ProductPaga from "./Pages/ProductPaga";
 import Context from "./ContextApi/Context";
 import CheckoutPage from "./Pages/CheckoutPage";
 import SearchResults from "./Compoenents/SearchResults";
-
+import React from "react";
 function App() {
   return (
     <>
