@@ -1,6 +1,6 @@
-# Amazon Clone - E-Commerce UI
+# Amazon Clone - E-Commerce Store
 
-This project is a frontend replica of Amazon's interface, built using **React, Vite, and React Bootstrap**. It delivers a responsive shopping experience with essential e-commerce functionalities, including product browsing, search, filtering, cart management, checkout, and theme switching.
+This project is built using **React, Vite, and React Bootstrap**. It delivers a responsive shopping experience with essential e-commerce functionalities, including product browsing, search, filtering, cart management, checkout, and theme switching.
 
 ## 🚀 Live Demo & Repository
 - **Live Site:** [Amazon-clone](https://amazon-frontend-dev.netlify.app/)
